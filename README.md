@@ -1,2 +1,1 @@
-# Scholar-Testnet
-EOS Scholar Testnet
+# EOS Scholar Testnet
