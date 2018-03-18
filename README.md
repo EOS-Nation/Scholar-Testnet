@@ -27,16 +27,6 @@ plato
 aristotle
 ```
 
-**extras**
-```
-kant
-sartre
-epicurus
-kierkegaard
-rand
-hypatia
-```
-
 ### [EOSoCal](https://eosocal.io)
 
 - **Incoming HTTP**: https://testnet.eosocal.io (port 443)
@@ -57,5 +47,14 @@ marx
 
 - **Incoming HTTP**:
 - **Incoming P2P**:
-- **Producer Name(s)**: `edison`
+- **Producer Name(s)**:
 
+```
+kant
+sartre
+epicurus
+kierkegaard
+rand
+hypatia
+edison
+```
