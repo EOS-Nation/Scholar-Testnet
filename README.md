@@ -30,7 +30,7 @@ aristotle
 ### [EOSoCal](https://eosocal.io)
 
 - **Incoming HTTP**: https://testnet.eosocal.io (port 443)
-- **Incoming P2P**: https://testnet.eosocal.io (port 1337)
+- **Incoming P2P**: https://testnet.eosocal.io (port 9876)
 - **Producer Name(s)**:
 
 ```
@@ -45,8 +45,8 @@ marx
 
 ### [Meet.one](https://meet.one)
 
-- **Incoming HTTP**:
-- **Incoming P2P**:
+- **Incoming HTTP**: http://testnet.meet.one (port 8888)
+- **Incoming P2P**: http://testnet.meet.one (port 9876)
 - **Producer Name(s)**:
 
 ```
