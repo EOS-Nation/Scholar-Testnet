@@ -43,7 +43,7 @@ locke
 marx
 ```
 
-### [Meet.one](https://meet.one)
+### [Meet.one](https://meet.one/en/)
 
 - **Incoming HTTP**: http://testnet.meet.one (port 8888)
 - **Incoming P2P**: http://testnet.meet.one (port 9876)
