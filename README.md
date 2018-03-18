@@ -13,7 +13,7 @@ Follow the install instructions from [EOS.IO GitHub repo](https://github.com/EOS
 - [config.ini](eos/data-dir/config.ini)
 - [genesis.json](eos/genesis.json)
 
-## Active Block Producers
+## Block Producers Candidates (BPC)
 
 | Block Producer                     | Domain             | HTTP | P2P  | Producer Name  |
 |------------------------------------|--------------------|------|------|----------------|
@@ -21,8 +21,12 @@ Follow the install instructions from [EOS.IO GitHub repo](https://github.com/EOS
 | [EOSoCal](https://eosocal.io)      | testnet.eosocal.io | 443  | 9876 | suntzu, descartes, socrates, neitzche, aquinas, locke, marx
 | [Meet.one](https://meet.one/en)    | testnet.meet.one   | 8888 | 9876 | kant, sartre, epicurus, kierkegaard, rand, hypatia, edison
 
-## Distributed Network
+## Network
 
-EOS is designed as a `distributed` network.
+EOS.IO Software is designed as a `distributed` network.
 
 ![network](https://cdn.buttercms.com/oihuotblToORkNDsbJqd)
+
+## BP Security Toolkit
+
+To-Do...
