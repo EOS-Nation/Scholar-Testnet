@@ -13,7 +13,13 @@ Follow the install instructions from [EOS.IO GitHub repo](https://github.com/EOS
 - [config.ini](eos/data-dir/config.ini)
 - [genesis.json](eos/genesis.json)
 
+## Telegram - Live Chat
+
+Will be posted on official launch.
+
 ## Block Producers Candidates (BPC)
+
+Add yourself to the BPC list by submitting your application [HERE](https://docs.google.com/forms/d/1wUrzzyyzqQAPIGaikxrJEKq9iDnICO9bw4mkaXalu0Y).
 
 | Block Producer                     | Domain             | HTTP | P2P  | Producer Name  |
 |------------------------------------|--------------------|------|------|----------------|
