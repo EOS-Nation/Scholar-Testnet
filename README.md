@@ -13,6 +13,16 @@ Follow the install instructions from [EOS.IO GitHub repo](https://github.com/EOS
 - [config.ini](eos/data-dir/config.ini)
 - [genesis.json](eos/genesis.json)
 
+## Latest Blocks
+
+For faster syncing, an S3 bucket hosts the latest blocks created from the Block Producers. Download these blocks into your `data-dir` folder.
+
+```
+$ cd data-dir/
+$ wget https://s3.amazonaws.com/scholar.eosnation.io/blocks/2018-03-22-blocks.tar.gz
+$ tar -zxvf 2018-03-22-blocks.tar.gz
+```
+
 ## Telegram - Live Chat
 
 Will be posted on official launch.
