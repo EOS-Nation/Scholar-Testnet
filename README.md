@@ -41,6 +41,30 @@ Add yourself to the BPC list by submitting your application [HERE](https://docs.
 | [ByStake](http://bystake.com/)       | 52.80.130.81	      | 9989 | 9999 | edison
 | [CryptoLions](http://cryptolions.io) | 94.154.212.15	    | 8912 | 9900 | aristotle
 
+## Scheduled Scripts
+
+Here are some possible scripts which could be executed on a schedule using `crontab -e`.
+
+### Syncing Block
+
+Updating blocks on a long chain could take several hours,
+quickly having access to a S3 bucket with the latest blocks will greatly speed up that procedure.
+
+- [`sync-blocks.sh`](cron/sync-blocks.sh)
+
+### Set up Crontab
+
+Using the following configurations, you can quickly set up your cron jobs.
+
+- [`crontab`](cron/crontab)
+
+### AWS CLI
+
+Amazon Web Services offer many great services such as S3 buckets, get started with AWS CLI tools:
+
+https://aws.amazon.com/cli
+
+
 ## Network
 
 EOS.IO Software is designed as a `distributed` network.
