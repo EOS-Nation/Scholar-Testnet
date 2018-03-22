@@ -13,15 +13,24 @@ Follow the install instructions from [EOS.IO GitHub repo](https://github.com/EOS
 - [config.ini](eos/data-dir/config.ini)
 - [genesis.json](eos/genesis.json)
 
-## Latest Blocks
+## Resync Blocks
 
 For faster syncing, an S3 bucket hosts the latest blocks created from the Block Producers. Download these blocks into your `data-dir` folder.
 
 ```
 $ cd data-dir/
-$ wget https://s3.amazonaws.com/scholar.eosnation.io/blocks/2018-03-22-blocks.tar.gz
-$ tar -zxvf 2018-03-22-blocks.tar.gz
+$ rm -r blocks/
+$ wget https://s3.amazonaws.com/scholar.eosnation.io/blocks.tar.gz
+$ tar -zxvf blocks.tar.gz
+$ eosiod --replay
 ```
+
+wget http://ctestnet.eosio.se/resync/blocks.tar.gz
+tar -xvpzf blocks.tar.gz
+rm blocks.tar.gz
+rm -r /path/data-dir/blocks
+mv blocks /path/data-dir/
+/path/eosiod --replay
 
 ## Telegram - Live Chat
 
