@@ -25,13 +25,6 @@ $ mv blocks /path/user-dir/blocks
 $ eosiod --replay
 ```
 
-wget http://ctestnet.eosio.se/resync/blocks.tar.gz
-tar -xvpzf blocks.tar.gz
-rm blocks.tar.gz
-rm -r /path/data-dir/blocks
-mv blocks /path/data-dir/
-/path/eosiod --replay
-
 ## Telegram - Live Chat
 
 Will be posted on official launch.
