@@ -21,12 +21,13 @@ Will be posted on official launch.
 
 Add yourself to the BPC list by submitting your application [HERE](https://docs.google.com/forms/d/1wUrzzyyzqQAPIGaikxrJEKq9iDnICO9bw4mkaXalu0Y).
 
-| Block Producer                     | Domain             | HTTP | P2P  | Producer Name  |
-|------------------------------------|--------------------|------|------|----------------|
-| [EOS Nation](https://eosnation.io) | testnet.eosn.io    | 443  | 9876 | einstein, tesla, oppenheimer, campbell, hawking, plato, aristotle
-| [EOSoCal](https://eosocal.io)      | testnet.eosocal.io | 443  | 9876 | suntzu, descartes, socrates, neitzche, aquinas, locke, marx
-| [Meet.one](https://meet.one/en)    | testnet.meet.one   | 8888 | 9876 | kant, sartre, epicurus, kierkegaard, rand, hypatia
-| [ByStake](http://bystake.com/)     | 52.80.130.81	      | 9989 | 9999 | edison
+| Block Producer                       | Domain             | HTTP | P2P  | Producer Name  |
+|--------------------------------------|--------------------|------|------|----------------|
+| [EOS Nation](https://eosnation.io)   | testnet.eosn.io    | 443  | 9876 | einstein, tesla, oppenheimer, campbell, hawking, plato
+| [EOSoCal](https://eosocal.io)        | testnet.eosocal.io | 443  | 9876 | suntzu, descartes, socrates, neitzche, aquinas, locke, marx
+| [Meet.one](https://meet.one/en)      | testnet.meet.one   | 8888 | 9876 | kant, sartre, epicurus, kierkegaard, rand, hypatia
+| [ByStake](http://bystake.com/)       | 52.80.130.81	      | 9989 | 9999 | edison
+| [CryptoLions](http://cryptolions.io) | 94.154.212.15	    | 8912 | 9900 | aristotle
 
 ## Network
 
