@@ -18,10 +18,10 @@ Follow the install instructions from [EOS.IO GitHub repo](https://github.com/EOS
 For faster syncing, an S3 bucket hosts the latest blocks created from the Block Producers. Download these blocks into your `data-dir` folder.
 
 ```
-$ cd data-dir/
-$ rm -r blocks/
 $ wget https://s3.amazonaws.com/scholar.eosnation.io/blocks.tar.gz
 $ tar -zxvf blocks.tar.gz
+$ rm -r /path/user-dir/blocks
+$ mv blocks /path/user-dir/blocks
 $ eosiod --replay
 ```
 
