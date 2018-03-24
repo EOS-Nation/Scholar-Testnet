@@ -8,6 +8,10 @@ Follow the install instructions from [EOS.IO GitHub repo](https://github.com/EOS
 
 - `SuperDawn-2018-03-04`
 
+## Website
+
+Web Development is being developed here: https://github.com/meet-one/eos-scholar-testnet
+
 ## Configuration Files
 
 - [config.ini](eos/data-dir/config.ini)
