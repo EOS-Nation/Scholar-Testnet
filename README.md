@@ -57,10 +57,11 @@ Add yourself to the list by submitting your credentials [HERE](https://docs.goog
 | Block Producer                       | Domain             | HTTP | P2P  | Producer Name  |
 |--------------------------------------|--------------------|------|------|----------------|
 | [EOS Nation](https://eosnation.io)   | testnet.eosn.io    | 443  | 9876 | einstein, tesla, oppenheimer, campbell, hawking, plato
-| [EOSoCal](https://eosocal.io)        | testnet.eosocal.io | 443  | 9876 | suntzu, descartes, socrates, neitzche, aquinas, locke, marx
+| [EOSoCal](https://eosocal.io)        | testnet.eosocal.io | 443  | 9876 | descartes, socrates, neitzche, aquinas, locke, marx
 | [Meet.one](https://meet.one/en)      | testnet.meet.one   | 443  | 9876 | kant, sartre, epicurus, kierkegaard, rand, hypatia
 | [ByStake](http://bystake.com/)       | 52.80.130.81	      | 9989 | 9999 | edison
 | [CryptoLions](http://cryptolions.io) | scholartestnet.cryptolions.io | 8912 | 9900 | aristotle
+| [Coinstakes](https://coinstakes.io)  | eos.coinstakes.io  | 443  | 9876 | suntzu
 
 ## Scheduled Scripts
 
