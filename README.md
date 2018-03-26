@@ -31,11 +31,11 @@ $ eosiod --replay
 
 ## Telegram - Live Chat
 
-Will be posted on official launch.
+https://t.me/ScholarTestnet
 
-## Block Producers Candidates (BPC)
+## Block Producers
 
-Add yourself to the BPC list by submitting your application [HERE](https://docs.google.com/forms/d/1wUrzzyyzqQAPIGaikxrJEKq9iDnICO9bw4mkaXalu0Y).
+Add yourself to the list by submitting your credentials [HERE](https://docs.google.com/forms/d/1wUrzzyyzqQAPIGaikxrJEKq9iDnICO9bw4mkaXalu0Y).
 
 | Block Producer                       | Domain             | HTTP | P2P  | Producer Name  |
 |--------------------------------------|--------------------|------|------|----------------|
