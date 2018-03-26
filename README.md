@@ -12,7 +12,7 @@ Follow the install instructions from [EOS.IO GitHub repo](https://github.com/EOS
 
 https://scholartestnet.github.io/
 
-![website](https://user-images.githubusercontent.com/550895/37928163-e8345cd0-3109-11e8-903d-6621cc42d12d.png)
+![website](https://user-images.githubusercontent.com/550895/37928288-5d44eaee-310a-11e8-92f4-7b10d2a1a4d7.png)
 
 ## Configuration Files
 
