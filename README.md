@@ -10,7 +10,9 @@ Follow the install instructions from [EOS.IO GitHub repo](https://github.com/EOS
 
 ## Website
 
-Web Development is being developed here: https://github.com/meet-one/eos-scholar-testnet
+https://scholartestnet.github.io/
+
+![website](https://user-images.githubusercontent.com/550895/37928163-e8345cd0-3109-11e8-903d-6621cc42d12d.png)
 
 ## Configuration Files
 
