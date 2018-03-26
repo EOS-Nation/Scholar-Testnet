@@ -65,6 +65,14 @@ Add yourself to the list by submitting your credentials [HERE](https://docs.goog
 | [CryptoLions](http://cryptolions.io) | scholartestnet.cryptolions.io | 8912 | 9900 | aristotle
 | [Coinstakes](https://coinstakes.io)  | eos.coinstakes.io  | 443  | 9876 | suntzu
 
+### New Producers
+
+To add/replace new producers, modify the [`producers.js`](https://github.com/ScholarTestnet/ScholarTestnet.github.io/blob/master/producer.js) file.
+
+Please only add HTTPS (SSL) servers to the list of producer.js, the P2P port doesn't have to be using SSL, but at least the incoming HTTP server.
+
+FYI: https://medium.freecodecamp.org/going-https-on-amazon-ec2-ubuntu-14-04-with-lets-encrypt-certbot-on-nginx-696770649e76
+
 ## Scheduled Scripts
 
 Here are some possible scripts which could be executed on a schedule using `crontab -e`.
@@ -82,19 +90,8 @@ Using the following configurations, you can quickly set up your cron jobs.
 
 - [`crontab`](cron/crontab)
 
-### AWS CLI
-
-Amazon Web Services offer many great services such as S3 buckets, get started with AWS CLI tools:
-
-https://aws.amazon.com/cli
-
-
 ## Network
 
 EOS.IO Software is designed as a `distributed` network.
 
 ![network](https://cdn.buttercms.com/oihuotblToORkNDsbJqd)
-
-## BP Security Toolkit
-
-To-Do...
