@@ -40,6 +40,7 @@ $ pip install awscli
 $ aws configure (optional - needed for upload)
 ```
 
+**Download**
 ```
 $ aws s3 cp s3://scholar.eosnation.io/blocks.tar.gz blocks.tar.gz
 (Should see a download progress)
