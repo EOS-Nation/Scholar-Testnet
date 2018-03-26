@@ -21,12 +21,28 @@ Web Development is being developed here: https://github.com/meet-one/eos-scholar
 
 For faster syncing, an S3 bucket hosts the latest blocks created from the Block Producers. Download these blocks into your `data-dir` folder.
 
-```
+```bash
 $ wget https://s3.amazonaws.com/scholar.eosnation.io/blocks.tar.gz
 $ tar -zxvf blocks.tar.gz
 $ rm -r /path/user-dir/blocks
 $ mv blocks /path/user-dir/blocks
 $ eosiod --replay
+```
+
+### Download via AWS CLI
+
+If your connection stops or timesouts, it would be recommend to use AWS's Command Line Interface to download the S3 Bucket.
+
+**Install**
+
+```bash
+$ pip install awscli
+$ aws configure (optional - needed for upload)
+```
+
+```
+$ aws s3 cp s3://scholar.eosnation.io/blocks.tar.gz blocks.tar.gz
+(Should see a download progress)
 ```
 
 ## Telegram - Live Chat
