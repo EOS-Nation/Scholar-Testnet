@@ -54,24 +54,22 @@ https://t.me/ScholarTestnet
 
 ## Block Producers
 
-Add yourself to the list by submitting your credentials [HERE](https://docs.google.com/forms/d/1wUrzzyyzqQAPIGaikxrJEKq9iDnICO9bw4mkaXalu0Y).
+**New Application**
 
-| Block Producer                       | Domain             | HTTP | P2P  | Producer Name  |
-|--------------------------------------|--------------------|------|------|----------------|
-| [EOS Nation](https://eosnation.io)   | testnet.eosn.io    | 443  | 9876 | einstein, tesla, oppenheimer, campbell, hawking, plato
-| [EOSoCal](https://eosocal.io)        | testnet.eosocal.io | 443  | 9876 | descartes, socrates, neitzche, aquinas, locke, marx
-| [Meet.one](https://meet.one/en)      | testnet.meet.one   | 443  | 9876 | kant, sartre, epicurus, kierkegaard, rand, hypatia
-| [ByStake](http://bystake.com/)       | 52.80.130.81	      | 9989 | 9999 | edison
-| [CryptoLions](http://cryptolions.io) | scholartestnet.cryptolions.io | 8912 | 9900 | aristotle
-| [Coinstakes](https://coinstakes.io)  | eos.coinstakes.io  | 443  | 9876 | suntzu
+1. Join the Telegram group: [t.me/ScholarTestnet](https://t.me/ScholarTestnet)
+2. Announce on Telegram you would like to join
+3. [Submit your server credentials](https://docs.google.com/forms/d/1wUrzzyyzqQAPIGaikxrJEKq9iDnICO9bw4mkaXalu0Y).
+4. You will be appointed a `producer-name` by one of the community members.
 
-### New Producers
+**Update Info**
 
-To add/replace new producers, modify the [`producers.js`](https://github.com/ScholarTestnet/ScholarTestnet.github.io/blob/master/producer.js) file.
+1. Update [`producers.js`](https://github.com/ScholarTestnet/ScholarTestnet.github.io/blob/master/producer.js) by submitting a Pull Request.
+
+### Install SSL with LetsEncrypt
 
 Please only add HTTPS (SSL) servers to the list of producer.js, the P2P port doesn't have to be using SSL, but at least the incoming HTTP server.
 
-FYI: https://medium.freecodecamp.org/going-https-on-amazon-ec2-ubuntu-14-04-with-lets-encrypt-certbot-on-nginx-696770649e76
+https://medium.freecodecamp.org/going-https-on-amazon-ec2-ubuntu-14-04-with-lets-encrypt-certbot-on-nginx-696770649e76
 
 ## Scheduled Scripts
 
