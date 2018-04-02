@@ -1,2 +1,0 @@
-AWS_CONFIG_FILE="/home/ubuntu/.aws/config"
-*/15 * * * * /home/ubuntu/cron/sync-blocks.sh

@@ -2,12 +2,8 @@
 # EOS Scholar Testnet
 # Nginx configuration
 #
-upstream eosiod {
+upstream nodeos {
     server 127.0.0.1:8888;
-}
-
-upstream p2p {
-    server 0.0.0.0:9876;
 }
 
 server {
@@ -24,10 +20,10 @@ server {
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
     # SSL options
-    include /etc/letsencrypt/options-ssl-nginx.conf;
+    include /etc/nginx/options-ssl-nginx.conf;
 
     location / {
-        proxy_pass http://eosiod;
+        proxy_pass http://nodeos;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
