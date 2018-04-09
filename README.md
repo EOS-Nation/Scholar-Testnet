@@ -6,7 +6,7 @@ Follow the install instructions from [EOS.IO GitHub repo](https://github.com/EOS
 
 ## Release Tag
 
-- `DAWN-2018-03-29-ALPHA`
+- `dawn-v3.0.0`
 
 ## Configuration Files
 
@@ -21,9 +21,9 @@ https://t.me/ScholarTestnet
 
 **New Application**
 
-1. Join the Telegram group: [t.me/ScholarTestnet](https://t.me/ScholarTestnet)
-2. Announce on Telegram you would like to join
-3. Submit your server credentials:
+- Join the Telegram group: [t.me/ScholarTestnet](https://t.me/ScholarTestnet)
+- Announce on Telegram you would like to join
+- Submit your server credentials:
   - [Google Docs](https://docs.google.com/forms/d/1wUrzzyyzqQAPIGaikxrJEKq9iDnICO9bw4mkaXalu0Y)
   - [GitHub Pull Request](https://github.com/ScholarTestnet/scholar-block-producers)
-4. You will be appointed a `producer-name` by one of the community members.
+- You will be appointed a `producer-name` by one of the community members.
