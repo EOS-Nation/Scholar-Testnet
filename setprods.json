@@ -22,16 +22,8 @@
       "block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },
     {
-      "producer_name": "eos.brazil",
-      "block_signing_key": "EOS8PHe43wscCMcfL1jSoKzfcgB4MUY1PKqywjCWjF6yG4Nvk2FYt"
-    },
-    {
       "producer_name": "cafe.calgary",
       "block_signing_key": "EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma"
-    },
-    {
-      "producer_name": "eos.canada",
-      "block_signing_key": "EOS5LtSmcQ4Aiso1ZPwySCjfzxSdizf9K2Nr4WripcFYCSUQEz6BX"
     },
     {
       "producer_name": "eos.cannon",
@@ -78,12 +70,12 @@
       "block_signing_key": "EOS8Ctxaor6oNQNuNUVtiNQSeNJW5X2hNjtHKTV4yLvUB7Hy95Adf"
     },
     {
-      "producer_name": "heipacker",
-      "block_signing_key": "EOS594XCjRRqtCKDT5FsYScB5wHkzmhUCALZc2pYp2zYpJQ2dTTYX"
-    },
-    {
       "producer_name": "meet.one",
       "block_signing_key": "EOS89nqhePAogKBGTa7ent35yp3iYUh6z6yMVLRRx2KmnF5ixaWcy"
+    },
+    {
+      "producer_name": "worbli",
+      "block_signing_key": "EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG"
     }
   ]
 }
