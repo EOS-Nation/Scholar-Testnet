@@ -26,4 +26,4 @@ https://t.me/ScholarTestnet
 - Submit your server credentials:
   - [Google Docs](https://docs.google.com/forms/d/1wUrzzyyzqQAPIGaikxrJEKq9iDnICO9bw4mkaXalu0Y)
   - [GitHub Pull Request](https://github.com/ScholarTestnet/scholar-block-producers)
-- You will be appointed a `producer-name` by one of the community members.
+
