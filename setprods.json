@@ -1,5 +1,5 @@
 {
-  "version": 12345,
+  "version": "12345",
   "producers": [
     {
       "producer_name": "bitcoin.eos",
