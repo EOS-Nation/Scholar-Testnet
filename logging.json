@@ -1,0 +1,48 @@
+{
+    "includes": [],
+    "appenders": [{
+        "name": "consoleout",
+        "type": "console",
+        "args": {
+            "stream": "std_out",
+            "level_colors": [{
+                "level": "debug",
+                "color": "green"
+            },{
+                "level": "warn",
+                "color": "brown"
+            },{
+                "level": "error",
+                "color": "red"
+            }]
+        },
+        "enabled": true
+    },{
+        "name": "net",
+        "type": "gelf",
+        "args": {
+            "endpoint": "scholarnet.eosnation.io:9876",
+            "host": "eosio"
+        },
+        "enabled": true
+    }],
+    "loggers": [{
+        "name": "default",
+        "level": "info",
+        "enabled": true,
+        "additivity": false,
+        "appenders": [
+            "consoleout",
+            "net"
+        ]
+    },{
+        "name": "net_plugin_impl",
+        "level": "debug",
+        "enabled": true,
+        "additivity": false,
+        "appenders": [
+            "consoleout",
+            "net"
+        ]
+    }]
+}
