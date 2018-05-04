@@ -1,0 +1,11 @@
+[Unit]
+Description=EOS server-side blockchain node component
+After=network.target
+
+[Service]
+User=<username>
+Group=<username>
+ExecStart=/usr/local/bin/nodeos
+
+[Install]
+WantedBy=multi-user.target

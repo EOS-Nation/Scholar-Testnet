@@ -1,0 +1,11 @@
+[Unit]
+Description=keosd component that manages EOSIO wallets
+After=network.target
+
+[Service]
+User=<username>
+Group=<username>
+ExecStart=/usr/local/bin/keosd
+
+[Install]
+WantedBy=multi-user.target

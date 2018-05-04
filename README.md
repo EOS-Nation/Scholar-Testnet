@@ -27,3 +27,10 @@ https://t.me/ScholarTestnet
   - [Google Docs](https://docs.google.com/forms/d/1wUrzzyyzqQAPIGaikxrJEKq9iDnICO9bw4mkaXalu0Y)
   - [GitHub Pull Request](https://github.com/ScholarTestnet/scholar-block-producers)
 
+# systemd
+
+> System and Service Manager for booting EOS
+
+1. Save `*.service` files in `/lib/systemd/system/`
+2. Enable service `systemctl enable nodeos.service`
+3. Start service `systemctl start nodeos.service`
