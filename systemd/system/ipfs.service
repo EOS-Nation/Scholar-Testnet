@@ -5,7 +5,7 @@ After=network.target
 [Service]
 User=<username>
 Group=<username>
-ExecStart=/usr/local/bin/ipfs daemon
+ExecStart=/usr/local/bin/ipfs ipfs daemon --init --enable-namesys-pubsub
 
 [Install]
 WantedBy=multi-user.target
